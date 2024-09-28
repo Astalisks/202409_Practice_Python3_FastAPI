@@ -1,1 +1,4 @@
 # 202409_Practice_Python3_FastAPI
+
+FastAPIでWebアプリケーションを作成
+(未)GunicornでFastAPIをデプロイ
