@@ -21,5 +21,14 @@ docker ps
 http://localhost:8000にアクセスすると、一般的なHTTPサーバの返答が表示される
 http://localhost:8000/docsにアクセスすると、Swagger UIが表示される
 
+POST部分にクエリを入れると新しいアイテムが追加される
+{
+  "name": "New Item",
+  "description": "A great new item.",
+  "price": 99.99,
+  "tax": 8.25
+}
+
 ## 止める
 docker stop <CONTAINER ID>
+docker rm <CONTAINER ID>
